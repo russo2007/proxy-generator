@@ -26,8 +26,8 @@ jobs:
 
     - name: Commit and push updated proxies
       run: |
-        git config --local user.email "you@example.com"
-        git config --local user.name "Your Name"
+        git config --local user.email "russo20072@gmail.com"
+        git config --local user.name "russo2007"
         git add proxies.txt
         git commit -m "Update proxies"
         git push
